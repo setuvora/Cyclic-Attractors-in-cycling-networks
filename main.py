@@ -15,7 +15,6 @@ TIME_STEPS = 50
 
 # Functions
 
-
 def make_network(nodes, k):
     sign_states = [-1, 1]
     SIGN = np.ones((nodes, nodes))
