@@ -1,7 +1,7 @@
 
 # Cyclic-Attractors-in-cycling-networks
 
-The goal of this program is to systematically detect randomly generated boolean networks with natural cycling activity. Simple boolean networks have been sucessfully used to model complex dynamics in various biological systems with remarkable accuracy (e.g. [the cell cycle network in baker's yeast](https://www.pnas.org/doi/10.1073/pnas.0305937101) ).
+The goal of this program is to systematically detect randomly generated boolean networks with natural cycling activity. Simple boolean networks have been sucessfully used to model complex dynamics in various biological systems with remarkable accuracy (e.g. [the cell cycle network in brewer's yeast](https://www.pnas.org/doi/10.1073/pnas.0305937101) ).
 
 
 The [previous program](https://github.com/setuvora/Oscillating-Boolean-Network-Generator) generated directed (+/-) and fully-connected random boolean networks. After simulating network dynamics by turning all nodes ON, cycling activity was determined heuristically by comparing the last two timesteps of each simulation - if they were unequal, the network was determined to cycle indefinitely. This method was accurate only with networks with few nodes. Larger networks evolve over many timesteps before reaching a steady-state (or attractor state), making it difficult to predict if they are cycling using this method.
